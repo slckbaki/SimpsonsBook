@@ -13,6 +13,8 @@
 		A19EF30C26CEB142000BED26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19EF30A26CEB142000BED26 /* Main.storyboard */; };
 		A19EF30E26CEB146000BED26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A19EF30D26CEB146000BED26 /* Assets.xcassets */; };
 		A19EF31126CEB146000BED26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19EF30F26CEB146000BED26 /* LaunchScreen.storyboard */; };
+		A19EF31926CEB2EB000BED26 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19EF31826CEB2EB000BED26 /* DetailsVC.swift */; };
+		A1F4348D26CECE1B008F23F3 /* Simpsons Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F4348C26CECE1B008F23F3 /* Simpsons Class.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A19EF30D26CEB146000BED26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A19EF31026CEB146000BED26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A19EF31226CEB146000BED26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A19EF31826CEB2EB000BED26 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		A1F4348C26CECE1B008F23F3 /* Simpsons Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Simpsons Class.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		A19EF30326CEB142000BED26 /* 13-Simpson Book */ = {
 			isa = PBXGroup;
 			children = (
+				A1F4348B26CECDCA008F23F3 /* View Controller */,
 				A19EF30426CEB142000BED26 /* AppDelegate.swift */,
+				A1F4348C26CECE1B008F23F3 /* Simpsons Class.swift */,
 				A19EF30626CEB142000BED26 /* SceneDelegate.swift */,
-				A19EF30826CEB142000BED26 /* ViewController.swift */,
 				A19EF30A26CEB142000BED26 /* Main.storyboard */,
 				A19EF30D26CEB146000BED26 /* Assets.xcassets */,
 				A19EF30F26CEB146000BED26 /* LaunchScreen.storyboard */,
 				A19EF31226CEB146000BED26 /* Info.plist */,
 			);
 			path = "13-Simpson Book";
+			sourceTree = "<group>";
+		};
+		A1F4348B26CECDCA008F23F3 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A19EF30826CEB142000BED26 /* ViewController.swift */,
+				A19EF31826CEB2EB000BED26 /* DetailsVC.swift */,
+			);
+			path = "View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A19EF30926CEB142000BED26 /* ViewController.swift in Sources */,
+				A19EF31926CEB2EB000BED26 /* DetailsVC.swift in Sources */,
 				A19EF30526CEB142000BED26 /* AppDelegate.swift in Sources */,
+				A1F4348D26CECE1B008F23F3 /* Simpsons Class.swift in Sources */,
 				A19EF30726CEB142000BED26 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
